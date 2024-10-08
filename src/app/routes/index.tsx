@@ -1,9 +1,8 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from 'react-router-dom'
 
-export const router: ReturnType<typeof createBrowserRouter> =
-  createBrowserRouter([
-    {
-      path: "/",
-      element: <></>,
-    },
-  ]);
+export const router: ReturnType<typeof createBrowserRouter> = createBrowserRouter([
+  {
+    path: '/',
+    element: <></>,
+  },
+])
