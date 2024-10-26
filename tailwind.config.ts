@@ -4,6 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
+        g: {
+          100: '#F5F5F5',
+          500: '#737373',
+        },
+        p: {
+          900: '#15489C',
+        },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
