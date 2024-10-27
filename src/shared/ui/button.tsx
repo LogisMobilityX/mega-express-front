@@ -11,7 +11,7 @@ const buttonVariants = cva(
         high: 'h-[72px] bg-gradient-to-r from-[#15489C] to-[#002562] text-[20px] font-bold rounded-[15px] w-[482px] text-white px-4 py-2',
         medium:
           'h-[72px] border border-p-900 border-[2px] text-[20px] font-bold text-[#15489C] rounded-[15px] w-[482px] px-4 py-2',
-        low: 'underline w-[64px] h-[19px] text-[16px] leading-[19.2px] text-g-500 font-normal',
+        low: 'underline w-fit h-[19px] text-[16px] leading-[19.2px] text-g-500 font-normal',
       },
     },
     defaultVariants: {
